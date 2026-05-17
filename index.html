@@ -217,7 +217,36 @@
     .nav-link:hover {
       color: #0dcaf0;
     }
+/* Portfolio Section */
 
+.portfolio-card{
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.portfolio-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.portfolio-card img{
+  height: 220px;
+  object-fit: cover;
+}
+
+.portfolio-card .card-body{
+  padding: 25px;
+}
+
+.portfolio-card h4{
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.portfolio-card p{
+  color: #555;
+}
     .main-content {
       margin-left: 260px;
     }
@@ -347,6 +376,9 @@
       <a href="#resume" class="nav-link">
         <i class="bi bi-file-earmark-text"></i> Resume
       </a>
+      <a href="#portfolio" class="nav-link">
+  <i class="bi bi-images"></i> Portfolio
+</a>
 
       <a href="#services" class="nav-link">
         <i class="bi bi-briefcase"></i> Services
@@ -724,7 +756,212 @@
   </div>
 
 </section>
+<!-- Portfolio -->
 
+<section id="portfolio" class="bg-light">
+
+  <div class="container">
+
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold">Portfolio</h2>
+
+      <p class="text-muted">
+        Real projects + practice work to show my development skills
+      </p>
+
+    </div>
+
+    <div class="row g-4">
+
+      <!-- REAL PROJECT 1 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card border-0 shadow-sm h-100 portfolio-card">
+
+          <img 
+            src="https://dha.vibegym.pk/wp-content/uploads/2022/06/VibeGym3.webp"
+            class="card-img-top"
+            alt="Training Hub">
+
+          <div class="card-body">
+
+            <h4 class="card-title">Training Hub</h4>
+
+            <p class="card-text">
+              Educational website built using HTML, CSS, Bootstrap, and JavaScript.
+            </p>
+
+            <a href="https://ubaid44.github.io/Training-hub/"
+               target="_blank"
+               class="btn btn-info text-white">
+              View Live
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- REAL PROJECT 2 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card border-0 shadow-sm h-100 portfolio-card">
+
+          <img 
+            src="https://social-media-downloader-freshcodes-technology.en.aptoide.com/_next/image?url=https%3A%2F%2Fcdn.aptoide.com%2Fimgs%2Ff%2F6%2F4%2Ff641b6a451b31e1b6f3e5021bde500e9_icon.png&w=256&q=75"
+            class="card-img-top"
+            alt="Downloader">
+
+          <div class="card-body">
+
+            <h4 class="card-title">Social Media Downloader</h4>
+
+            <p class="card-text">
+              Web tool for downloading media with responsive UI design.
+            </p>
+
+            <a href="https://ubaid44.github.io/SocialMediaDownloader/"
+               target="_blank"
+               class="btn btn-info text-white">
+              View Live
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- REAL PROJECT 3 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card border-0 shadow-sm h-100 portfolio-card">
+
+          <img 
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
+            class="card-img-top"
+            alt="Portfolio">
+
+          <div class="card-body">
+
+            <h4 class="card-title">My Portfolio Website</h4>
+
+            <p class="card-text">
+              Personal portfolio showcasing skills, resume, and projects.
+            </p>
+
+            <a href="https://ubaid44.github.io/Ubaid-s-Porftolio/"
+               target="_blank"
+               class="btn btn-info text-white">
+              View Live
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DEMO PROJECT 1 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card border-0 shadow-sm h-100 portfolio-card">
+
+          <img 
+            src="https://www.rishabhsoft.com/wp-content/uploads/2022/06/Modernizing-Legacy-Systems-in-Banking_Banner.jpg"
+            class="card-img-top"
+            alt="Bank System">
+
+          <div class="card-body">
+
+            <h4 class="card-title">Bank Management System (Demo)</h4>
+
+            <p class="card-text">
+              C# Windows Forms application with login system, deposits, withdrawals, and account management.
+            </p>
+
+            <a href="#"
+               class="btn btn-secondary">
+              Demo Project
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DEMO PROJECT 2 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card border-0 shadow-sm h-100 portfolio-card">
+
+          <img 
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200&auto=format&fit=crop"
+            class="card-img-top"
+            alt="Ecommerce UI">
+
+          <div class="card-body">
+
+            <h4 class="card-title">E-Commerce UI (Practice)</h4>
+
+            <p class="card-text">
+              Frontend UI design of an online store built for practicing layout and product pages.
+            </p>
+
+            <a href="#"
+               class="btn btn-secondary">
+              Demo Project
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DEMO PROJECT 3 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card border-0 shadow-sm h-100 portfolio-card">
+
+          <img 
+            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop"
+            class="card-img-top"
+            alt="SQL System">
+
+          <div class="card-body">
+
+            <h4 class="card-title">Student Management System (Demo)</h4>
+
+            <p class="card-text">
+              SQL + C# based CRUD system for managing student records with database integration.
+            </p>
+
+            <a href="#"
+               class="btn btn-secondary">
+              Demo Project
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     <!-- Services -->
 
     <!-- Services -->
